@@ -1,0 +1,23 @@
+
+.app {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .videoSection {
+        display: none;
+    }
+    .best {
+        display: none;
+    }
+}
+
+/* 当宽度小于390px时，再次显示内容 */
+@media (max-width: 390px) {
+    .videoSection {
+        display: block;
+    }
+    .best {
+        display: block;
+    }
+}
